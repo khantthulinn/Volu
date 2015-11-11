@@ -15,7 +15,7 @@
 		A23A497F1BF18F82000C3AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A497D1BF18F82000C3AA6 /* LaunchScreen.storyboard */; };
 		A23A498A1BF18F82000C3AA6 /* VoluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49891BF18F82000C3AA6 /* VoluTests.m */; };
 		A23A49951BF18F82000C3AA6 /* VoluUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49941BF18F82000C3AA6 /* VoluUITests.m */; };
-		A265E4161BF3851A005528C4 /* OrganizationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A265E4151BF3851A005528C4 /* OrganizationVC.m */; };
+		A265E41A1BF385F3005528C4 /* OrganizationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A265E4191BF385F3005528C4 /* OrganizationVC.m */; };
 		A27230E91BF37DDF00D0A92C /* UIView+CBFrameHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A27230E81BF37DDF00D0A92C /* UIView+CBFrameHelpers.m */; };
 		A27230F61BF3806200D0A92C /* NewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A27230ED1BF3806200D0A92C /* NewsFeedCell.m */; };
 		A27230F71BF3806200D0A92C /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27230EE1BF3806200D0A92C /* NewsFeedCell.xib */; };
@@ -57,8 +57,9 @@
 		A23A49901BF18F82000C3AA6 /* VoluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23A49941BF18F82000C3AA6 /* VoluUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoluUITests.m; sourceTree = "<group>"; };
 		A23A49961BF18F82000C3AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A265E4141BF3851A005528C4 /* OrganizationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationVC.h; sourceTree = "<group>"; };
-		A265E4151BF3851A005528C4 /* OrganizationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationVC.m; sourceTree = "<group>"; };
+		A265E4181BF385F3005528C4 /* OrganizationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationVC.h; sourceTree = "<group>"; };
+		A265E4191BF385F3005528C4 /* OrganizationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationVC.m; sourceTree = "<group>"; };
+		A265E41B1BF38604005528C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A27230E71BF37DDF00D0A92C /* UIView+CBFrameHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CBFrameHelpers.h"; sourceTree = "<group>"; };
 		A27230E81BF37DDF00D0A92C /* UIView+CBFrameHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CBFrameHelpers.m"; sourceTree = "<group>"; };
 		A27230EC1BF3806200D0A92C /* NewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedCell.h; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		A23A49601BF18F82000C3AA6 = {
 			isa = PBXGroup;
 			children = (
+				A265E41B1BF38604005528C4 /* PrefixHeader.pch */,
 				A23A496B1BF18F82000C3AA6 /* Volu */,
 				A23A49881BF18F82000C3AA6 /* VoluTests */,
 				A23A49931BF18F82000C3AA6 /* VoluUITests */,
@@ -180,6 +182,15 @@
 			path = VoluUITests;
 			sourceTree = "<group>";
 		};
+		A265E4171BF385F3005528C4 /* OrganizationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A265E4181BF385F3005528C4 /* OrganizationVC.h */,
+				A265E4191BF385F3005528C4 /* OrganizationVC.m */,
+			);
+			path = OrganizationVC;
+			sourceTree = "<group>";
+		};
 		A27230E31BF37DAE00D0A92C /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,10 +244,9 @@
 		A27230EF1BF3806200D0A92C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A265E4171BF385F3005528C4 /* OrganizationVC */,
 				A27230F01BF3806200D0A92C /* NewsfeedVC */,
 				A27230F31BF3806200D0A92C /* SecondViewController */,
-				A265E4141BF3851A005528C4 /* OrganizationVC.h */,
-				A265E4151BF3851A005528C4 /* OrganizationVC.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,7 +454,7 @@
 				A27230F91BF3806200D0A92C /* SecondViewController.m in Sources */,
 				A27230F81BF3806200D0A92C /* NewsfeedVC.m in Sources */,
 				A27230F61BF3806200D0A92C /* NewsFeedCell.m in Sources */,
-				A265E4161BF3851A005528C4 /* OrganizationVC.m in Sources */,
+				A265E41A1BF385F3005528C4 /* OrganizationVC.m in Sources */,
 				A23A49711BF18F82000C3AA6 /* AppDelegate.m in Sources */,
 				A23A496E1BF18F82000C3AA6 /* main.m in Sources */,
 				A27230E91BF37DDF00D0A92C /* UIView+CBFrameHelpers.m in Sources */,
@@ -589,6 +599,7 @@
 			baseConfigurationReference = 6E081AF1AFCE86B3C0D7C823 /* Pods-Volu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = Volu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Volu.Volu;
@@ -601,6 +612,7 @@
 			baseConfigurationReference = 63A06A204ED9EF77A00C901F /* Pods-Volu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = Volu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Volu.Volu;
