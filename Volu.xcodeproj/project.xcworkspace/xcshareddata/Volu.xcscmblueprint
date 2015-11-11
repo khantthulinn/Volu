@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "107a2d78-22f3-8a92-eb30-ce57b7db7bff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "107a2d78-22f3-8a92-eb30-ce57b7db7bff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "107a2d78-22f3-8a92-eb30-ce57b7db7bff" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8785125D-BD6F-4473-805E-D697C6560CFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "107a2d78-22f3-8a92-eb30-ce57b7db7bff" : "Volu\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Volu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/Volu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/khantthulinn\/Volu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "107a2d78-22f3-8a92-eb30-ce57b7db7bff"
+    }
+  ]
+}
