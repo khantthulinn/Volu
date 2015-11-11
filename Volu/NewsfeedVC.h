@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  NewsfeedVC.h
 //  Volu
 //
 //  Created by Khant Thu Linn on 10/11/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface NewsfeedVC : UIViewController
 
 @end
-
