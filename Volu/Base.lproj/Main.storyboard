@@ -5,6 +5,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="6Oc-KH-V4t">
+            <objects>
+                <navigationController id="Zro-K2-WlO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="l0w-OA-G97"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZUE-9a-KP4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="LHS-NP-bma"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X13-Cn-NSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="-303"/>
+        </scene>
         <!--NewsfeedVC-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
@@ -80,6 +98,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="uFK-KB-COJ"/>
                     <connections>
                         <outlet property="cvMain" destination="ueA-In-ewx" id="8nT-Xm-sIf"/>
                         <segue destination="cFM-Zr-CoP" kind="push" identifier="goToOrganization" id="3v8-jo-B88"/>
@@ -87,12 +106,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400" y="-303"/>
+            <point key="canvasLocation" x="750" y="-309"/>
         </scene>
-        <!--View Controller-->
+        <!--OrganizationVC-->
         <scene sceneID="OCe-E7-cq1">
             <objects>
-                <viewController id="cFM-Zr-CoP" sceneMemberID="viewController">
+                <viewController id="cFM-Zr-CoP" customClass="OrganizationVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gy0-eD-LGm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,16 +121,23 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cFM-Zr-CoP" id="1cT-7U-HII"/>
+                                    <outlet property="delegate" destination="cFM-Zr-CoP" id="1t3-gs-rnJ"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Z98-qD-64k"/>
+                    <connections>
+                        <outlet property="tblMain" destination="Psg-nD-2oB" id="sPf-2b-YIf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yno-fl-EKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="818" y="-304"/>
+            <point key="canvasLocation" x="1168" y="-310"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -160,7 +186,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="Zro-K2-WlO" kind="relationship" relationship="viewControllers" id="06w-ko-CMW"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                     </connections>
                 </tabBarController>
