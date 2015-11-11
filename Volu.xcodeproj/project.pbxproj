@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83435791192D664D94E29572 /* libPods-Volu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0306C3E3A1D7671DCA50FCF /* libPods-Volu.a */; };
 		A23A496E1BF18F82000C3AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A496D1BF18F82000C3AA6 /* main.m */; };
 		A23A49711BF18F82000C3AA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49701BF18F82000C3AA6 /* AppDelegate.m */; };
-		A23A49741BF18F82000C3AA6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49731BF18F82000C3AA6 /* FirstViewController.m */; };
 		A23A49771BF18F82000C3AA6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49761BF18F82000C3AA6 /* SecondViewController.m */; };
 		A23A497A1BF18F82000C3AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A49781BF18F82000C3AA6 /* Main.storyboard */; };
 		A23A497C1BF18F82000C3AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23A497B1BF18F82000C3AA6 /* Assets.xcassets */; };
 		A23A497F1BF18F82000C3AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A497D1BF18F82000C3AA6 /* LaunchScreen.storyboard */; };
 		A23A498A1BF18F82000C3AA6 /* VoluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49891BF18F82000C3AA6 /* VoluTests.m */; };
 		A23A49951BF18F82000C3AA6 /* VoluUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49941BF18F82000C3AA6 /* VoluUITests.m */; };
+		A23A49A41BF19059000C3AA6 /* NewsfeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A49A31BF19059000C3AA6 /* NewsfeedVC.m */; };
+		A27230E11BF3786800D0A92C /* NewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A27230DF1BF3786800D0A92C /* NewsFeedCell.m */; };
+		A27230E21BF3786800D0A92C /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27230E01BF3786800D0A92C /* NewsFeedCell.xib */; };
+		A27230E91BF37DDF00D0A92C /* UIView+CBFrameHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A27230E81BF37DDF00D0A92C /* UIView+CBFrameHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63A06A204ED9EF77A00C901F /* Pods-Volu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Volu/Pods-Volu.release.xcconfig"; sourceTree = "<group>"; };
+		6E081AF1AFCE86B3C0D7C823 /* Pods-Volu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Volu/Pods-Volu.debug.xcconfig"; sourceTree = "<group>"; };
 		A23A49691BF18F82000C3AA6 /* Volu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23A496D1BF18F82000C3AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A23A496F1BF18F82000C3AA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A23A49701BF18F82000C3AA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A23A49721BF18F82000C3AA6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A23A49731BF18F82000C3AA6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		A23A49751BF18F82000C3AA6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A23A49761BF18F82000C3AA6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A23A49791BF18F82000C3AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		A23A49901BF18F82000C3AA6 /* VoluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23A49941BF18F82000C3AA6 /* VoluUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoluUITests.m; sourceTree = "<group>"; };
 		A23A49961BF18F82000C3AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23A49A21BF19059000C3AA6 /* NewsfeedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsfeedVC.h; sourceTree = "<group>"; };
+		A23A49A31BF19059000C3AA6 /* NewsfeedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsfeedVC.m; sourceTree = "<group>"; };
+		A27230DE1BF3786800D0A92C /* NewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedCell.h; sourceTree = "<group>"; };
+		A27230DF1BF3786800D0A92C /* NewsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedCell.m; sourceTree = "<group>"; };
+		A27230E01BF3786800D0A92C /* NewsFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
+		A27230E71BF37DDF00D0A92C /* UIView+CBFrameHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CBFrameHelpers.h"; sourceTree = "<group>"; };
+		A27230E81BF37DDF00D0A92C /* UIView+CBFrameHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CBFrameHelpers.m"; sourceTree = "<group>"; };
+		F0306C3E3A1D7671DCA50FCF /* libPods-Volu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Volu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83435791192D664D94E29572 /* libPods-Volu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6338788E839BB190E1D0BA57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0306C3E3A1D7671DCA50FCF /* libPods-Volu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B7663A96D756880983E5ADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E081AF1AFCE86B3C0D7C823 /* Pods-Volu.debug.xcconfig */,
+				63A06A204ED9EF77A00C901F /* Pods-Volu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A23A49601BF18F82000C3AA6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				A23A49881BF18F82000C3AA6 /* VoluTests */,
 				A23A49931BF18F82000C3AA6 /* VoluUITests */,
 				A23A496A1BF18F82000C3AA6 /* Products */,
+				8B7663A96D756880983E5ADB /* Pods */,
+				6338788E839BB190E1D0BA57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +136,10 @@
 		A23A496B1BF18F82000C3AA6 /* Volu */ = {
 			isa = PBXGroup;
 			children = (
+				A27230E41BF37DC100D0A92C /* Helper */,
+				A27230E31BF37DAE00D0A92C /* Library */,
 				A23A496F1BF18F82000C3AA6 /* AppDelegate.h */,
 				A23A49701BF18F82000C3AA6 /* AppDelegate.m */,
-				A23A49721BF18F82000C3AA6 /* FirstViewController.h */,
-				A23A49731BF18F82000C3AA6 /* FirstViewController.m */,
 				A23A49751BF18F82000C3AA6 /* SecondViewController.h */,
 				A23A49761BF18F82000C3AA6 /* SecondViewController.m */,
 				A23A49781BF18F82000C3AA6 /* Main.storyboard */,
@@ -115,6 +147,11 @@
 				A23A497D1BF18F82000C3AA6 /* LaunchScreen.storyboard */,
 				A23A49801BF18F82000C3AA6 /* Info.plist */,
 				A23A496C1BF18F82000C3AA6 /* Supporting Files */,
+				A23A49A21BF19059000C3AA6 /* NewsfeedVC.h */,
+				A23A49A31BF19059000C3AA6 /* NewsfeedVC.m */,
+				A27230DE1BF3786800D0A92C /* NewsFeedCell.h */,
+				A27230DF1BF3786800D0A92C /* NewsFeedCell.m */,
+				A27230E01BF3786800D0A92C /* NewsFeedCell.xib */,
 			);
 			path = Volu;
 			sourceTree = "<group>";
@@ -145,6 +182,38 @@
 			path = VoluUITests;
 			sourceTree = "<group>";
 		};
+		A27230E31BF37DAE00D0A92C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A27230E41BF37DC100D0A92C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A27230E51BF37DDF00D0A92C /* Category */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A27230E51BF37DDF00D0A92C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A27230E61BF37DDF00D0A92C /* UIView+CBFrameHelpers */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A27230E61BF37DDF00D0A92C /* UIView+CBFrameHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				A27230E71BF37DDF00D0A92C /* UIView+CBFrameHelpers.h */,
+				A27230E81BF37DDF00D0A92C /* UIView+CBFrameHelpers.m */,
+			);
+			path = "UIView+CBFrameHelpers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A23A49991BF18F82000C3AA6 /* Build configuration list for PBXNativeTarget "Volu" */;
 			buildPhases = (
+				64E5BD98C2D8592D42C040E6 /* Check Pods Manifest.lock */,
 				A23A49651BF18F82000C3AA6 /* Sources */,
 				A23A49661BF18F82000C3AA6 /* Frameworks */,
 				A23A49671BF18F82000C3AA6 /* Resources */,
+				D5AEDF15EE11D24A9D5022C8 /* Embed Pods Frameworks */,
+				26CDD0AEA3AA4EC49036CD33 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +322,7 @@
 			files = (
 				A23A497F1BF18F82000C3AA6 /* LaunchScreen.storyboard in Resources */,
 				A23A497C1BF18F82000C3AA6 /* Assets.xcassets in Resources */,
+				A27230E21BF3786800D0A92C /* NewsFeedCell.xib in Resources */,
 				A23A497A1BF18F82000C3AA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,15 +343,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26CDD0AEA3AA4EC49036CD33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volu/Pods-Volu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E5BD98C2D8592D42C040E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5AEDF15EE11D24A9D5022C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volu/Pods-Volu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A23A49651BF18F82000C3AA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23A49A41BF19059000C3AA6 /* NewsfeedVC.m in Sources */,
 				A23A49771BF18F82000C3AA6 /* SecondViewController.m in Sources */,
 				A23A49711BF18F82000C3AA6 /* AppDelegate.m in Sources */,
-				A23A49741BF18F82000C3AA6 /* FirstViewController.m in Sources */,
+				A27230E11BF3786800D0A92C /* NewsFeedCell.m in Sources */,
 				A23A496E1BF18F82000C3AA6 /* main.m in Sources */,
+				A27230E91BF37DDF00D0A92C /* UIView+CBFrameHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +540,7 @@
 		};
 		A23A499A1BF18F82000C3AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E081AF1AFCE86B3C0D7C823 /* Pods-Volu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Volu/Info.plist;
@@ -428,6 +552,7 @@
 		};
 		A23A499B1BF18F82000C3AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A06A204ED9EF77A00C901F /* Pods-Volu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Volu/Info.plist;
@@ -504,6 +629,7 @@
 				A23A499B1BF18F82000C3AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23A499C1BF18F82000C3AA6 /* Build configuration list for PBXNativeTarget "VoluTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +638,7 @@
 				A23A499E1BF18F82000C3AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23A499F1BF18F82000C3AA6 /* Build configuration list for PBXNativeTarget "VoluUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +647,7 @@
 				A23A49A11BF18F82000C3AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
